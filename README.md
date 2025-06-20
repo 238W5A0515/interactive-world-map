@@ -1,35 +1,79 @@
-🌍 Interactive World Map with Population Data
-This project is a D3.js-based interactive world map that allows users to click on countries and instantly view their population. It combines D3.js, TopoJSON, and the REST Countries API to visualize geographic data and display real-time country statistics.
+# 🌍 Interactive World Map with Population Data
 
-✨ Features
-Interactive SVG map rendered with D3.js.
+An interactive world map built using **D3.js**, **TopoJSON**, and the **REST Countries API**. Click on any country to view its population in real time. The project showcases dynamic SVG rendering, real-world data fetching, and smooth hover interactions.
 
-Hover effects and clickable countries.
+---
 
-Live population data fetched from the REST Countries API.
+## ✨ Features
 
-Clean, responsive UI with subtle animations.
+- 🌐 Interactive and zoomable SVG map
+- 🧭 Country highlighting on hover
+- 📊 Real-time population data using [REST Countries API](https://restcountries.com/)
+- 📐 Geo-projection using `d3.geoMercator`
+- 🖌️ Clean and modern UI with smooth transitions
 
-Uses TopoJSON world geometry data.
+---
 
-🧰 Technologies Used
-HTML5
+## 🔧 Technologies Used
 
-CSS3
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- [D3.js v6](https://d3js.org/)
+- [TopoJSON](https://github.com/topojson/topojson)
+- [REST Countries API](https://restcountries.com/)
 
-JavaScript (ES6)
+---
 
-D3.js v6
+## 📁 Folder Structure
 
-TopoJSON
+interactive-world-map/
+├── index.html # Main HTML structure
+├── style.css # Styling and layout
+└── script.js # D3 rendering and population fetching
 
-RESTCountries API
 
-📌 How It Works
-Loads a TopoJSON map of the world from the world-atlas dataset.
+---
 
-Uses d3.geoMercator() for geographic projection.
+## 🚀 Getting Started
 
-On clicking a country, a fetch request is sent to the RESTCountries API.
+### 🔹 Clone the Repository
 
-The population is then displayed dynamically in the info box.
+```bash
+git clone https://github.com/yourusername/interactive-world-map
+cd interactive-world-map
+
+🖼️ Screenshot
+
+Replace with an actual screenshot or GIF once hosted
+
+❓ How It Works
+The map loads a world dataset (countries-110m.json) using TopoJSON.
+
+D3 renders the countries onto the <svg> element.
+
+On clicking a country, the app:
+
+Extracts the country's name from the clicked shape.
+
+Sends a request to the REST Countries API.
+
+Displays the population in the info panel.
+
+✅ To Deploy on GitHub Pages
+Push your project to a GitHub repo.
+
+Go to Settings > Pages.
+
+Under Source, select main branch and root directory.
+
+Your site will be live at:
+https://yourusername.github.io/interactive-world-map/
+
+📜 License
+This project is licensed under the MIT License
+
+👨‍💻 Author
+Developed by Peetha Manikantha (238W5A0515)
+Feel free to reach out on LinkedIn or via email
+
