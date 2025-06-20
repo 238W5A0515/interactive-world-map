@@ -37,13 +37,7 @@ interactive-world-map/
 
 ## 🚀 Getting Started
 
-### 🔹 Clone the Repository
-
-```bash
-git clone https://github.com/238w5a0515/interactive-world-map
-cd interactive-world-map
-
-## 🖼️ Screenshot
+### 🖼️ Screenshot
 
 ![interactive world map](https://github.com/user-attachments/assets/657f7d58-bbda-4614-bc39-716669ee2f31)
 
