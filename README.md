@@ -40,14 +40,15 @@ interactive-world-map/
 ### 🔹 Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/interactive-world-map
+git clone https://github.com/238w5a0515/interactive-world-map
 cd interactive-world-map
 
-🖼️ Screenshot
+## 🖼️ Screenshot
 
-Replace with an actual screenshot or GIF once hosted
+![interactive world map](https://github.com/user-attachments/assets/657f7d58-bbda-4614-bc39-716669ee2f31)
 
-❓ How It Works
+
+## ❓ How It Works
 The map loads a world dataset (countries-110m.json) using TopoJSON.
 
 D3 renders the countries onto the <svg> element.
@@ -60,7 +61,7 @@ Sends a request to the REST Countries API.
 
 Displays the population in the info panel.
 
-✅ To Deploy on GitHub Pages
+## ✅ To Deploy on GitHub Pages
 Push your project to a GitHub repo.
 
 Go to Settings > Pages.
@@ -68,12 +69,12 @@ Go to Settings > Pages.
 Under Source, select main branch and root directory.
 
 Your site will be live at:
-https://yourusername.github.io/interactive-world-map/
+https://238w5a0515.github.io/interactive-world-map/
 
-📜 License
+## 📜 License
 This project is licensed under the MIT License
 
-👨‍💻 Author
+## 👨‍💻 Author
 Developed by Peetha Manikantha (238W5A0515)
 Feel free to reach out on LinkedIn or via email
 
